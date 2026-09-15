@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>瑪奇物資兌換手冊</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700;900&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="page">
+
+  <header class="banner">
+    <div class="banner-plank">
+      <svg class="banner-ropehole left" viewBox="0 0 20 20"><circle cx="10" cy="10" r="6"/></svg>
+      <svg class="banner-ropehole right" viewBox="0 0 20 20"><circle cx="10" cy="10" r="6"/></svg>
+      <h1>瑪奇物資兌換手冊</h1>
+      <p class="subtitle">Mabinogi 兌換路線查詢 · 依 NPC 兌換資料自動整理</p>
+    </div>
+  </header>
+
+  <main class="content">
+
+    <section class="controls" aria-label="查詢設定">
+      <div class="mode-tabs" role="tablist">
+        <button class="mode-tab is-active" data-mode="item" role="tab" aria-selected="true">
+          <span class="tab-icon">🎁</span>我要兌換這個物品
+        </button>
+        <button class="mode-tab" data-mode="resource" role="tab" aria-selected="false">
+          <span class="tab-icon">🌾</span>我手上有這個資源
+        </button>
+      </div>
+
+      <div class="search-box">
+        <input type="text" id="search-input" autocomplete="off"
+               placeholder="輸入名稱搜尋，例如「皮革」或「原木」…">
+        <div id="suggestions" class="suggestions" hidden></div>
+      </div>
+    </section>
+
+    <section id="result-area" class="result-area">
+      <div class="empty-state">
+        <div class="empty-icon">📜</div>
+        <p>選擇上方頁籤，並輸入或挑選一個名稱，<br>手冊會翻開對應的兌換路線。</p>
+      </div>
+    </section>
+
+    <section id="notes-area" class="notes-area" hidden>
+      <h2>其他兌換備註</h2>
+      <ul id="notes-list"></ul>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p id="updated-at">資料載入中…</p>
+    <p class="footer-sub">資料來源：瑪奇物資.xlsx（由 GitHub Actions 自動轉換為 data.json）</p>
+    <p class="footer-credit">創作者：迪恩・四葉草・夜夜</p>
+  </footer>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
