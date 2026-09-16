@@ -1,10 +1,95 @@
 {
-  "generatedAt": "2026-09-15T20:40:02.858138+00:00",
+  "generatedAt": "2026-09-16T16:25:35.544948+00:00",
+  "categoryOrder": [
+    "加工品",
+    "料理成品",
+    "一般取得材料",
+    "NPC物品",
+    "未分類"
+  ],
+  "itemCategory": {
+    "生皮": "一般取得材料",
+    "原木": "一般取得材料",
+    "高級生皮": "一般取得材料",
+    "特蕾西的原木音樂盒": "NPC物品",
+    "蒸蛤蠣": "料理成品",
+    "高級木材": "加工品",
+    "炒蔬菜": "料理成品",
+    "格麗娜的手工蛋糕": "NPC物品",
+    "牛奶燉豬肉": "料理成品",
+    "格麗娜的蘋果奶茶": "NPC物品",
+    "鮮奶油": "料理成品",
+    "皮革": "加工品",
+    "愛心幣": "NPC物品",
+    "真愛魚": "一般取得材料",
+    "絲綢": "加工品",
+    "瑞可塔起司沙拉": "料理成品",
+    "高級絲綢": "加工品",
+    "奶油醬牛排": "料理成品",
+    "高級布料": "加工品",
+    "蘋果舒芙蕾": "料理成品",
+    "高級布料+": "加工品",
+    "蘋果鮮奶油蛋糕": "料理成品",
+    "皮革+": "加工品",
+    "檸檬": "NPC物品",
+    "不死粉末": "NPC物品",
+    "胡椒": "NPC物品",
+    "無主的小說書": "NPC物品",
+    "特殊鋼錠": "加工品",
+    "合金鋼錠": "加工品",
+    "銅礦石": "一般取得材料",
+    "絕招秘藥": "加工品",
+    "馬鈴薯沙拉": "料理成品",
+    "紙": "NPC物品",
+    "鋼錠": "加工品",
+    "煤炭": "一般取得材料",
+    "分解的裝備零件": "一般取得材料",
+    "鐵礦石": "一般取得材料",
+    "麵粉": "加工品",
+    "雞蛋": "一般取得材料",
+    "煉金術碎屑": "一般取得材料",
+    "高級羊毛": "一般取得材料",
+    "寵物飼料": "加工品",
+    "空白樂譜": "NPC物品",
+    "羊毛": "一般取得材料",
+    "麥爾坎枕頭": "NPC物品",
+    "蜘蛛網": "一般取得材料",
+    "旅行者點心": "加工品",
+    "凱琳麵包": "NPC物品",
+    "牛奶": "一般取得材料",
+    "聖水": "NPC物品",
+    "爆擊秘藥": "加工品",
+    "美乃滋炒肉": "料理成品",
+    "高級煉金術再燃燒催化劑": "NPC物品",
+    "蘋果汁": "料理成品",
+    "稀有煉金術再燃燒催化劑": "NPC物品",
+    "銀合金錠": "加工品",
+    "鱸魚辣魚湯": "料理成品",
+    "落葉蛾": "NPC物品",
+    "用心準備的花束": "NPC物品",
+    "卓越恢復藥水": "加工品",
+    "豆乳防風草蛋糕": "料理成品",
+    "清淡的肉": "一般取得材料",
+    "黃豆": "一般取得材料",
+    "最高級絲綢": "加工品",
+    "最高級木材": "加工品",
+    "礦山的魔力石": "一般取得材料",
+    "生命的魔力石": "一般取得材料",
+    "礦野的魔力石": "一般取得材料",
+    "裝水的瓶子": "加工品",
+    "傷痕花": "一般取得材料",
+    "古樸的包裝紙": "NPC物品",
+    "卓越繃帶": "加工品",
+    "沙威瑪": "料理成品",
+    "馬鈴薯湯": "料理成品"
+  },
   "items": {
     "生皮": [
       {
-        "region": "杜加德",
+        "region": "杜加德走廊",
         "npc": "特蕾西",
+        "recommended": true,
+        "resultQty": 10,
         "resource": {
           "name": "原木",
           "qty": 10
@@ -13,8 +98,10 @@
     ],
     "高級生皮": [
       {
-        "region": "杜加德",
+        "region": "杜加德走廊",
         "npc": "特蕾西",
+        "recommended": true,
+        "resultQty": 10,
         "resource": {
           "name": "原木",
           "qty": 100
@@ -23,6 +110,8 @@
       {
         "region": "杜巴頓",
         "npc": "奈麗絲",
+        "recommended": true,
+        "resultQty": 10,
         "resource": {
           "name": "銅礦石",
           "qty": 10
@@ -31,18 +120,22 @@
     ],
     "特蕾西的原木音樂盒": [
       {
-        "region": "杜加德",
+        "region": "杜加德走廊",
         "npc": "特蕾西",
+        "recommended": false,
+        "resultQty": 1,
         "resource": {
-          "name": "蒸蛤罵",
+          "name": "蒸蛤蠣",
           "qty": 2
         }
       }
     ],
     "高級木材": [
       {
-        "region": "杜加德",
+        "region": "杜加德走廊",
         "npc": "艾爾文",
+        "recommended": true,
+        "resultQty": 8,
         "resource": {
           "name": "炒蔬菜",
           "qty": 2
@@ -53,6 +146,8 @@
       {
         "region": "杜巴頓",
         "npc": "格麗娜",
+        "recommended": false,
+        "resultQty": 1,
         "resource": {
           "name": "牛奶燉豬肉",
           "qty": 1
@@ -63,6 +158,8 @@
       {
         "region": "杜巴頓",
         "npc": "格麗娜",
+        "recommended": false,
+        "resultQty": 1,
         "resource": {
           "name": "鮮奶油",
           "qty": 4
@@ -73,6 +170,8 @@
       {
         "region": "杜巴頓",
         "npc": "瓦爾特",
+        "recommended": true,
+        "resultQty": 12,
         "resource": {
           "name": "特蕾西的原木音樂盒",
           "qty": 2
@@ -83,6 +182,8 @@
       {
         "region": "杜巴頓",
         "npc": "瓦爾特",
+        "recommended": false,
+        "resultQty": 2,
         "resource": {
           "name": "真愛魚",
           "qty": 10
@@ -93,6 +194,8 @@
       {
         "region": "杜巴頓",
         "npc": "傑羅姆",
+        "recommended": true,
+        "resultQty": 8,
         "resource": {
           "name": "瑞可塔起司沙拉",
           "qty": 2
@@ -103,6 +206,8 @@
       {
         "region": "杜巴頓",
         "npc": "傑羅姆",
+        "recommended": true,
+        "resultQty": 4,
         "resource": {
           "name": "奶油醬牛排",
           "qty": 1
@@ -113,6 +218,8 @@
       {
         "region": "杜巴頓",
         "npc": "潔米",
+        "recommended": true,
+        "resultQty": 8,
         "resource": {
           "name": "蘋果舒芙蕾",
           "qty": 2
@@ -123,6 +230,8 @@
       {
         "region": "杜巴頓",
         "npc": "潔米",
+        "recommended": true,
+        "resultQty": 4,
         "resource": {
           "name": "蘋果鮮奶油蛋糕",
           "qty": 1
@@ -133,9 +242,35 @@
       {
         "region": "杜巴頓",
         "npc": "卡利克斯",
+        "recommended": true,
+        "resultQty": 10,
         "resource": {
           "name": "格麗娜的蘋果奶茶",
           "qty": 2
+        }
+      }
+    ],
+    "檸檬": [
+      {
+        "region": "杜巴頓",
+        "npc": "卡利克斯",
+        "recommended": false,
+        "resultQty": 3,
+        "resource": {
+          "name": "不死粉末",
+          "qty": 5
+        }
+      }
+    ],
+    "胡椒": [
+      {
+        "region": "杜巴頓",
+        "npc": "卡利克斯",
+        "recommended": false,
+        "resultQty": 2,
+        "resource": {
+          "name": "不死粉末",
+          "qty": 5
         }
       }
     ],
@@ -143,17 +278,20 @@
       {
         "region": "杜巴頓",
         "npc": "芙蘿拉",
+        "recommended": false,
+        "resultQty": 1,
         "resource": {
           "name": "格麗娜的手工蛋糕",
           "qty": 2
-        },
-        "shop": "愛心幣商店"
+        }
       }
     ],
     "特殊鋼錠": [
       {
         "region": "杜巴頓",
         "npc": "奈麗絲",
+        "recommended": true,
+        "resultQty": 2,
         "resource": {
           "name": "合金鋼錠",
           "qty": 8
@@ -164,6 +302,8 @@
       {
         "region": "杜巴頓",
         "npc": "阿蘭雯",
+        "recommended": true,
+        "resultQty": 1,
         "resource": {
           "name": "馬鈴薯沙拉",
           "qty": 2
@@ -174,6 +314,8 @@
       {
         "region": "杜巴頓",
         "npc": "蕾拉",
+        "recommended": false,
+        "resultQty": 10,
         "resource": {
           "name": "無主的小說書",
           "qty": 1
@@ -184,9 +326,35 @@
       {
         "region": "提爾克納",
         "npc": "佛格斯",
+        "recommended": true,
+        "resultQty": 4,
         "resource": {
           "name": "鋼錠",
           "qty": 8
+        }
+      }
+    ],
+    "煤炭": [
+      {
+        "region": "提爾克納",
+        "npc": "佛格斯",
+        "recommended": false,
+        "resultQty": 30,
+        "resource": {
+          "name": "分解的裝備零件",
+          "qty": 10
+        }
+      }
+    ],
+    "鐵礦石": [
+      {
+        "region": "提爾克納",
+        "npc": "佛格斯",
+        "recommended": false,
+        "resultQty": 10,
+        "resource": {
+          "name": "分解的裝備零件",
+          "qty": 10
         }
       }
     ],
@@ -194,6 +362,8 @@
       {
         "region": "提爾克納",
         "npc": "愛麗沙",
+        "recommended": false,
+        "resultQty": 1,
         "resource": {
           "name": "雞蛋",
           "qty": 3
@@ -204,6 +374,8 @@
       {
         "region": "提爾克納",
         "npc": "愛麗沙",
+        "recommended": false,
+        "resultQty": 1,
         "resource": {
           "name": "雞蛋",
           "qty": 10
@@ -214,6 +386,8 @@
       {
         "region": "提爾克納",
         "npc": "迪恩",
+        "recommended": false,
+        "resultQty": 40,
         "resource": {
           "name": "寵物飼料",
           "qty": 10
@@ -224,6 +398,8 @@
       {
         "region": "提爾克納",
         "npc": "麥爾坎",
+        "recommended": false,
+        "resultQty": 1,
         "resource": {
           "name": "羊毛",
           "qty": 50
@@ -234,6 +410,8 @@
       {
         "region": "提爾克納",
         "npc": "麥爾坎",
+        "recommended": false,
+        "resultQty": 1,
         "resource": {
           "name": "蜘蛛網",
           "qty": 5
@@ -244,6 +422,8 @@
       {
         "region": "提爾克納",
         "npc": "蘿拉",
+        "recommended": false,
+        "resultQty": 3,
         "resource": {
           "name": "麥爾坎枕頭",
           "qty": 3
@@ -254,6 +434,8 @@
       {
         "region": "提爾克納",
         "npc": "凱琳",
+        "recommended": false,
+        "resultQty": 3,
         "resource": {
           "name": "牛奶",
           "qty": 10
@@ -264,6 +446,8 @@
       {
         "region": "提爾克納",
         "npc": "梅文",
+        "recommended": false,
+        "resultQty": 1,
         "resource": {
           "name": "凱琳麵包",
           "qty": 1
@@ -272,6 +456,8 @@
       {
         "region": "提爾克納",
         "npc": "安黛莉",
+        "recommended": false,
+        "resultQty": 10,
         "resource": {
           "name": "凱琳麵包",
           "qty": 10
@@ -282,16 +468,20 @@
       {
         "region": "提爾克納",
         "npc": "雷納德",
+        "recommended": true,
+        "resultQty": 1,
         "resource": {
           "name": "美乃滋炒肉",
           "qty": 2
         }
       }
     ],
-    "高級煉金催化劑": [
+    "高級煉金術再燃燒催化劑": [
       {
         "region": "提爾克納",
         "npc": "麗莎",
+        "recommended": true,
+        "resultQty": 1,
         "resource": {
           "name": "蘋果汁",
           "qty": 1
@@ -300,9 +490,23 @@
       {
         "region": "提爾克納",
         "npc": "麗莎",
+        "recommended": true,
+        "resultQty": 1,
         "resource": {
           "name": "煉金術碎屑",
           "qty": 3
+        }
+      }
+    ],
+    "稀有煉金術再燃燒催化劑": [
+      {
+        "region": "提爾克納",
+        "npc": "麗莎",
+        "recommended": true,
+        "resultQty": 1,
+        "resource": {
+          "name": "高級煉金術再燃燒催化劑",
+          "qty": 15
         }
       }
     ],
@@ -310,6 +514,8 @@
       {
         "region": "班克爾",
         "npc": "艾頓",
+        "recommended": true,
+        "resultQty": 10,
         "resource": {
           "name": "鱸魚辣魚湯",
           "qty": 1
@@ -318,6 +524,8 @@
       {
         "region": "班克爾",
         "npc": "艾琳",
+        "recommended": true,
+        "resultQty": 1,
         "resource": {
           "name": "特殊鋼錠",
           "qty": 3
@@ -326,9 +534,23 @@
       {
         "region": "班克爾",
         "npc": "艾琳",
+        "recommended": true,
+        "resultQty": 1,
         "resource": {
           "name": "合金鋼錠",
           "qty": 30
+        }
+      }
+    ],
+    "落葉蛾": [
+      {
+        "region": "班克爾",
+        "npc": "伊比",
+        "recommended": false,
+        "resultQty": 10,
+        "resource": {
+          "name": "用心準備的花束",
+          "qty": 1
         }
       }
     ],
@@ -336,6 +558,8 @@
       {
         "region": "班克爾",
         "npc": "康格",
+        "recommended": true,
+        "resultQty": 6,
         "resource": {
           "name": "豆乳防風草蛋糕",
           "qty": 1
@@ -346,23 +570,110 @@
       {
         "region": "班克爾",
         "npc": "珍妮佛",
+        "recommended": false,
+        "resultQty": 15,
         "resource": {
           "name": "黃豆",
           "qty": 10
         }
       }
+    ],
+    "最高級絲綢": [
+      {
+        "region": "班克爾",
+        "npc": "吉爾摩",
+        "recommended": true,
+        "resultQty": 5,
+        "resource": {
+          "name": "最高級木材",
+          "qty": 10
+        }
+      }
+    ],
+    "礦山的魔力石": [
+      {
+        "region": "班克爾",
+        "npc": "吉爾摩",
+        "recommended": false,
+        "resultQty": 1,
+        "resource": {
+          "name": "生命的魔力石",
+          "qty": 5
+        }
+      }
+    ],
+    "礦野的魔力石": [
+      {
+        "region": "班克爾",
+        "npc": "吉爾摩",
+        "recommended": false,
+        "resultQty": 1,
+        "resource": {
+          "name": "生命的魔力石",
+          "qty": 10
+        }
+      }
+    ],
+    "裝水的瓶子": [
+      {
+        "region": "班克爾",
+        "npc": "尚",
+        "recommended": false,
+        "resultQty": 10,
+        "resource": {
+          "name": "傷痕花",
+          "qty": 10
+        }
+      }
+    ],
+    "用心準備的花束": [
+      {
+        "region": "班克爾",
+        "npc": "尚",
+        "recommended": false,
+        "resultQty": 1,
+        "resource": {
+          "name": "古樸的包裝紙",
+          "qty": 1
+        }
+      }
+    ],
+    "古樸的包裝紙": [
+      {
+        "region": "萊爾特丘陵",
+        "npc": "休馬斯",
+        "recommended": false,
+        "resultQty": 3,
+        "resource": {
+          "name": "裝水的瓶子",
+          "qty": 30
+        }
+      }
+    ],
+    "卓越繃帶": [
+      {
+        "region": "萊爾特丘陵",
+        "npc": "休馬斯",
+        "recommended": true,
+        "resultQty": 15,
+        "resource": {
+          "name": "沙威瑪",
+          "qty": 3
+        }
+      }
+    ],
+    "寵物飼料": [
+      {
+        "region": "冰霜峽谷",
+        "npc": "卡琳",
+        "recommended": false,
+        "resultQty": 10,
+        "resource": {
+          "name": "馬鈴薯湯",
+          "qty": 3
+        }
+      }
     ]
   },
-  "notes": [
-    {
-      "region": "杜巴頓",
-      "npc": "伊文",
-      "shop": "魔物討伐證明"
-    },
-    {
-      "region": "杜巴頓",
-      "npc": "伊文",
-      "shop": "格里斯貝恩"
-    }
-  ]
+  "notes": []
 }

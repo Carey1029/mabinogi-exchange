@@ -3,22 +3,35 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>瑪奇物資兌換手冊</title>
+<title>瑪奇mobile物資兌換手冊</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700;900&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<div class="sky-deco" aria-hidden="true">
+  <div class="cloud c1"></div>
+  <div class="cloud c2"></div>
+  <div class="cloud c3"></div>
+</div>
+
 <div class="page">
 
   <header class="banner">
-    <div class="banner-plank">
-      <svg class="banner-ropehole left" viewBox="0 0 20 20"><circle cx="10" cy="10" r="6"/></svg>
-      <svg class="banner-ropehole right" viewBox="0 0 20 20"><circle cx="10" cy="10" r="6"/></svg>
-      <h1>瑪奇物資兌換手冊</h1>
-      <p class="subtitle">Mabinogi 兌換路線查詢 · 依 NPC 兌換資料自動整理</p>
+    <h1 class="game-title">瑪奇<span class="mobile-badge">mobile</span>物資兌換手冊</h1>
+    <div class="marquee-wrap">
+      <div class="marquee-track">
+        <span>兌換路線查詢 · 依 NPC 兌換資料自動整理</span>
+        <span aria-hidden="true">兌換路線查詢 · 依 NPC 兌換資料自動整理</span>
+      </div>
+    </div>
+    <div class="marquee-wrap marquee-wrap--alt">
+      <div class="marquee-track marquee-track--reverse">
+        <span>點選所需或擁有的物品，了解可兌換流程！</span>
+        <span aria-hidden="true">點選所需或擁有的物品，了解可兌換流程！</span>
+      </div>
     </div>
   </header>
 
@@ -27,24 +40,32 @@
     <section class="controls" aria-label="查詢設定">
       <div class="mode-tabs" role="tablist">
         <button class="mode-tab is-active" data-mode="item" role="tab" aria-selected="true">
-          <span class="tab-icon">🎁</span>我要兌換這個物品
+          <span class="tab-icon" data-icon="chest"></span>
+          <span>我要兌換這個物品</span>
         </button>
         <button class="mode-tab" data-mode="resource" role="tab" aria-selected="false">
-          <span class="tab-icon">🌾</span>我手上有這個資源
+          <span class="tab-icon" data-icon="bag"></span>
+          <span>我手上有這個資源</span>
         </button>
       </div>
 
-      <div class="search-box">
-        <input type="text" id="search-input" autocomplete="off"
-               placeholder="輸入名稱搜尋，例如「皮革」或「原木」…">
-        <div id="suggestions" class="suggestions" hidden></div>
+      <p class="reminder-note">
+        <span class="reminder-icon" data-icon="info"></span>
+        目前僅列出有兌換價值之物品。
+      </p>
+
+      <div class="select-wrap">
+        <select id="picker-select">
+          <option value="">— 請選擇 —</option>
+        </select>
+        <span class="select-caret" aria-hidden="true"></span>
       </div>
     </section>
 
     <section id="result-area" class="result-area">
       <div class="empty-state">
-        <div class="empty-icon">📜</div>
-        <p>選擇上方頁籤，並輸入或挑選一個名稱，<br>手冊會翻開對應的兌換路線。</p>
+        <span class="empty-icon" data-icon="book"></span>
+        <p>選擇上方頁籤，並從下拉選單挑一個名稱，<br>手冊會翻開對應的兌換路線。</p>
       </div>
     </section>
 
@@ -57,12 +78,13 @@
 
   <footer class="footer">
     <p id="updated-at">資料載入中…</p>
-    <p class="footer-sub">資料來源：瑪奇物資.xlsx（由 GitHub Actions 自動轉換為 data.json）</p>
-    <p class="footer-credit">創作者：迪恩・四葉草・夜夜</p>
+    <p class="footer-sub">此為非官方工具，若有良善之建議歡迎遊戲內找我留言!</p>
+    <p class="footer-credit">創作者：迪恩・四葉草・你的夜夜上線了</p>
   </footer>
 
 </div>
 
+<script src="icons.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
